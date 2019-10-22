@@ -1,0 +1,23 @@
+server:
+  port: 8050
+Spring:
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+  application:
+    name: account
+  datasource:
+    name: sectrans
+    url: jdbc:mysql://localhost:3306/sectrans?characterEncoding=UTF-8
+    username: root
+    password: 123456
+    #driver-class-name: com.mysql.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+mybatis:
+  mapper-locations: classpath:/mapping/*.xml
+  type-aliases-package: com.hai.entity
