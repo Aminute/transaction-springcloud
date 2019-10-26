@@ -1,6 +1,7 @@
 # transaction-springcloud
 #### 1、所使用到配置
 MySQL： 5.7.20-log MySQL Community Server (GPL)</br>
+用户名：root 密码:123456
 mysql中项目名为sectrans,下面共有四张表</br>
 ##### 1、admin(管理员表)
 |字段名|类型|含义|
