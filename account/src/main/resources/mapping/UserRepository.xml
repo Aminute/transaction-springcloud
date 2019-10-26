@@ -3,7 +3,7 @@
 <mapper namespace="com.hai.repository.UserRepository">
 
     <select id="login" resultType="User">
-		select * from user where user_id=#{user_id} and user_pwd =#{user_pwd}
+		select * from user where user_id=#{user_name} and user_pwd =#{user_pwd}
 	</select>
 
 </mapper>

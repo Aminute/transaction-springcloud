@@ -21,7 +21,7 @@ public interface GoodsFeign {
     public void deleteById(@PathVariable("goods_id") String goods_id);
 
     @PostMapping("/goods/save")
-    public ModelAndView save (Goods goods);
+    public void  save(@RequestBody Goods goods);
 
     @GetMapping("/goods/findById/{goods_id}")
     public Goods findById(@PathVariable("goods_id") String goods_id);

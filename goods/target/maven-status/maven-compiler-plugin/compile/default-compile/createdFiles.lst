@@ -1,0 +1,5 @@
+com\hai\entity\Goods.class
+com\hai\entity\GoodsVO.class
+com\hai\GoodsApplication.class
+com\hai\controller\GoodsHandler.class
+com\hai\repository\GoodsRepository.class

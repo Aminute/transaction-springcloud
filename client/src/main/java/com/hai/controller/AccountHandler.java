@@ -44,12 +44,23 @@ public class AccountHandler {
                         result = "index";
                         break;
                     case "admin":
-                        Admin admin = (Admin)object;
+                        Admin admin = new Admin();
+                        String admin_name = (String)hashMap.get("user_name");
+                        //String admin_pwd = (String)hashMap.get("user_pwd");
+                        admin.setAdmin_name(admin_name);
+                       // admin.setAdmin_pwd(admin_pwd);
                         session.setAttribute("admin",admin);
-                        result = "";
+                        result = "main";
                         break;
                 }
             }
             return result;
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "redirect:/login.html";
+
     }
 }

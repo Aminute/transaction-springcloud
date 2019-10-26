@@ -1,0 +1,10 @@
+com\hai\controller\BuyHandler.class
+com\hai\repository\UserRepository.class
+com\hai\BuyApplication.class
+com\hai\entity\BuyVO.class
+com\hai\entity\User.class
+com\hai\repository\GoodsRepository.class
+com\hai\entity\Goods.class
+com\hai\repository\BuyRepository.class
+com\hai\entity\Buy.class
+com\hai\entity\Admin.class

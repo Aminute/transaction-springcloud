@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/goods")
-public class GoodsHandler {
+public class  GoodsHandler {
 //    @Value("${server.port}")
 //    private String port;
 
@@ -33,7 +33,7 @@ public class GoodsHandler {
         return new GoodsVO(0,"",goodsRepository.count(),goodsRepository.findAll(index,limit));
     }
 
-    @GetMapping("/save")
+    @PostMapping("/save")
     public void save(@RequestBody Goods goods){
         goodsRepository.save(goods);
     }

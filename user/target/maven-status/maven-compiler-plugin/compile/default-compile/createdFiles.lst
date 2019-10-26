@@ -1,0 +1,5 @@
+com\hai\repository\UserRepository.class
+com\hai\entity\UserVO.class
+com\hai\entity\User.class
+com\hai\UserApplication.class
+com\hai\controller\UserHandler.class

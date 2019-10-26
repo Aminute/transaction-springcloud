@@ -10,13 +10,14 @@
     <modules>
         <module>eurekaserver</module>
       <module>configserver</module>
-      <module>order</module>
-      <module>menu</module>
+      <module>buy</module>
+      <module>goods</module>
         <module>client</module>
         <module>user</module>
         <module>account</module>
     </modules>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
+
 
   <!-- 引入springboot相关依赖-->
   <parent>

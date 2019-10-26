@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hai.repository.BuyRepository">
+
+
+	<resultMap id="buyMap" type="Buy">
+		<id column="id" property="id"></id>
+		<result column="date" property="date"></result>
+		<association property="goods" select="com.hai.repository.GoodsRepository.findById" column="goods_id"></association>
+		<association property="user" select="com.hai.repository.UserRepository.findById" column="user_id"></association>
+	</resultMap>
+    <select id="findAllById" resultMap="buyMap">
+		select user_id,goods_id from buy where user_id= #{user_id}
+	</select>
+
+    <select id="countById"  resultType="int">
+		select count(*) from buy where user_id =#{user_id}
+	</select>
+
+    <insert id="save" parameterType="Buy">
+		insert into buy(user_id,goods_id,trans_date) values(#{user_id},#{goods_id},#{date})
+	</insert>
+
+    <select id="findAllState" resultMap="buyMap">
+		select id,user_id,goods_id,trans_date,state from buy where state=0
+	</select>
+
+    <update id="updateState" parameterType="Buy">
+		update buy set state=1 where id = #{id}
+	</update>
+
+	<select id="countState"  resultType="int">
+		select count(*) from buy where state=0
+	</select>
+<!--    <delete id="deleteById" parameterType="java.lang.String">-->
+<!--		delete from goods where goods_id = #{goods_id}-->
+<!--	</delete>-->
+</mapper>

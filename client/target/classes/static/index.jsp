@@ -10,7 +10,7 @@
 <div class="layui-container" style="width: 700px;height: 600px;margin-top: 0px;padding-top: 60px;">
 
     <div style="margin-left: 460px; width: 200px;">
-        欢迎回来！<a href="/account/redirect/order" th:text="${session.user.user_name}"></a><a href="/account/logout">&nbsp;&nbsp;&nbsp;<button class="layui-btn layui-btn-warm layui-btn-radius">退出</button></a>
+        欢迎回来！<a href="/goods/redirect/buy" th:text="${session.user.user_name}"></a><a href="/account/logout">&nbsp;&nbsp;&nbsp;<button class="layui-btn layui-btn-warm layui-btn-radius">退出</button></a>
     </div>
 
     <table class="layui-hide" id="test" lay-filter="test"></table>
@@ -23,8 +23,8 @@
             var table = layui.table;
             table.render({
                 elem: '#test'
-                ,url:'/menu/findAll'
-                ,title: '菜单列表'
+                ,url:'/goods/findAll'
+                ,title: '商品列表'
                 ,cols: [
                     [
                         {field:'goods_id', width:100, title: '编号', sort: true}
@@ -40,7 +40,7 @@
             table.on('tool(test)', function(obj){
                 var data = obj.data;
                 if(obj.event === 'order'){
-                    window.location.href="/order/save/"+data.id;
+                    window.location.href="/buy/save/"+data.goods_id;
                 }
             });
         });

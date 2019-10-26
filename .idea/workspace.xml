@@ -6,356 +6,141 @@
   <component name="ChangeListManager">
     <list default="true" id="a21e70bc-c97d-4b6c-a7bd-0e31a33a76e7" name="Default Changelist" comment="test">
       <change afterPath="E:/SecTransaction/-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/93810372-7806-4188-be9f-3047f5f4f829.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/AccountApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/controller/AccountHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/mapping/AdminRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/com/hai/AccountApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/com/hai/controller/AccountHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/com/hai/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/com/hai/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/com/hai/repository/AdminRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/com/hai/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/mapping/AdminRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/target/classes/mapping/UserRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/GoodsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/feign/AccountFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/feign/GoodsFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/feign/UserFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/goods_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/goods_manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/goods_update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/user_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/user_manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/ClientApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/controller/AccountHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/controller/GoodsHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/controller/UserHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/GoodsVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/UserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/feign/AccountFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/feign/GoodsFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/feign/UserFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/goods_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/goods_manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/goods_update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/user_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/static/user_manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/java/com/hai/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/account-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/client-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/goods-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/order-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/user-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/com/hai/ConfigServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/shared/account-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/shared/client-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/shared/goods-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/shared/order-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/target/classes/shared/user-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/hai/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaserver/target/classes/com/hai/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/java/com/hai/GoodsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/java/com/hai/controller/GoodsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/java/com/hai/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/java/com/hai/entity/GoodsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/java/com/hai/repository/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/src/main/resources/mapping/GoodsRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/com/hai/GoodsApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/com/hai/controller/GoodsHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/com/hai/entity/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/com/hai/entity/GoodsVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/com/hai/repository/GoodsRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/target/classes/mapping/GoodsRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/hai/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/hai/controller/OrderHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/target/classes/com/hai/OrderApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/target/classes/com/hai/controller/OrderHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/hai/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/hai/controller/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/hai/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/hai/entity/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/hai/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/com/hai/UserApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/com/hai/controller/UserHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/com/hai/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/com/hai/entity/UserVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/com/hai/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/target/classes/mapping/UserRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/controller/BuyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/Buy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/BuyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/repository/BuyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/resources/mapping/BuyRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/resources/mapping/GoodsRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/Transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/BuyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/controller/BuyHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/entity/Buy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/entity/BuyVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/repository/BuyRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/repository/GoodsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/com/hai/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/mapping/BuyRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/mapping/GoodsRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/classes/mapping/UserRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/BuyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/Buy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/entity/BuyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/feign/BuyFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/filter/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/filter/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/buy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/buy_handler.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/images/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/static/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/Transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/controller/BuyHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/Buy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/entity/BuyVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/feign/BuyFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/filter/AdminFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/com/hai/filter/UserFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/static/buy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/static/buy_handler.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/static/images/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/classes/static/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/buy-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/target/Transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/target/classes/shared/buy-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/Transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/target/Transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/Transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="E:/How2j学习资料/Springmvc/session/javaStudy/src/ConTest155Test1/ConTest155Test1.java" beforeDir="false" afterPath="E:/How2j学习资料/Springmvc/session/javaStudy/src/ConTest155Test1/ConTest155Test1.java" afterDir="false" />
       <change beforePath="E:/How2j学习资料/Springmvc/session/javaStudy/src/ConTest155Test1/Solution.java" beforeDir="false" afterPath="E:/How2j学习资料/Springmvc/session/javaStudy/src/ConTest155Test1/Solution.java" afterDir="false" />
       <change beforePath="E:/How2j学习资料/Springmvc/session/javaStudy/src/Contest155Test2/Contest155Test2.java" beforeDir="false" afterPath="E:/How2j学习资料/Springmvc/session/javaStudy/src/Contest155Test2/Contest155Test2.java" afterDir="false" />
       <change beforePath="E:/How2j学习资料/Springmvc/session/javaStudy/src/Contest155Test2/Solution.java" beforeDir="false" afterPath="E:/How2j学习资料/Springmvc/session/javaStudy/src/Contest155Test2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/hai/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/hai/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/target/classes/com/hai/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/com/hai/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/target/classes/mapping/UserRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/target/classes/mapping/UserRepository.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/hai/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/hai/feign/GoodsFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/hai/feign/GoodsFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/goods_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/goods_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/goods_manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/goods_manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/hai/ClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/hai/ClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/hai/controller/AccountHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/hai/controller/AccountHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/hai/controller/GoodsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/hai/controller/GoodsHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/hai/feign/GoodsFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/hai/feign/GoodsFeign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/goods_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/goods_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/goods_manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/goods_manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/static/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/static/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/shared/order-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/target/classes/shared/order-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/src/main/java/com/hai/controller/GoodsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/goods/src/main/java/com/hai/controller/GoodsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/src/main/resources/mapping/GoodsRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goods/src/main/resources/mapping/GoodsRepository.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/target/classes/com/hai/controller/GoodsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/goods/target/classes/com/hai/controller/GoodsHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/target/classes/mapping/GoodsRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goods/target/classes/mapping/GoodsRepository.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/buy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hai/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/buy/src/main/java/com/hai/BuyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hai/controller/OrderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buy/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buy/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/classes/com/hai/OrderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/target/classes/com/hai/controller/OrderHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -367,6 +152,7 @@
     <ignored path="$PROJECT_DIR$/goods/target/" />
     <ignored path="$PROJECT_DIR$/user/target/" />
     <ignored path="$PROJECT_DIR$/account/target/" />
+    <ignored path="$PROJECT_DIR$/buy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +185,113 @@
     <favorites_list name="Transaction" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buy/src/main/resources/mapping/BuyRepository.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/entity/Buy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/controller/BuyHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="30" column="67" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/repository/BuyRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/entity/BuyVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/buy.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="37" column="71" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/buy_handler.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="9" column="81" lean-forward="true" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/BuyHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="36" column="52" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/feign/BuyFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -407,26 +299,35 @@
         <option value="package.json" />
         <option value="FxmlFile" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>barDemo</find>
       <find>sess</find>
-      <find>menu</find>
       <find>Menu</find>
       <find>goods</find>
       <find>userRepository</find>
       <find>telephone</find>
+      <find>userFeign</find>
+      <find>nick</find>
+      <find>findAllById</find>
+      <find>username</find>
+      <find>order</find>
+      <find>menu</find>
+      <find>j</find>
+      <find>spring-cloud-starter-eureka</find>
+      <find>admin_name</find>
+      <find>barDemo</find>
     </findStrings>
     <replaceStrings>
-      <replace>goods</replace>
       <replace>Goods</replace>
       <replace>user</replace>
       <replace>userFeign</replace>
+      <replace />
+      <replace>goods</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -436,7 +337,7 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="E:/" value="master" />
@@ -446,44 +347,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/feign/MenuFeign.java" />
-        <option value="$PROJECT_DIR$/menu/src/main/java/com/hai/entity/Menu.java" />
-        <option value="$PROJECT_DIR$/menu/src/main/resources/mapping/MenuRepository.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/controller/MenuHandler.java" />
-        <option value="$PROJECT_DIR$/goods/pom.xml" />
-        <option value="$PROJECT_DIR$/goods/src/main/resources/mapping/GoodsRepository.xml" />
-        <option value="$PROJECT_DIR$/goods/src/main/java/com/hai/repository/GoodsRepository.java" />
-        <option value="$PROJECT_DIR$/goods/src/main/java/com/hai/entity/Goods.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/entity/Goods.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/entity/GoodsVO.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/feign/GoodsFeign.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/goods_add.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/goods_update.jsp" />
-        <option value="$PROJECT_DIR$/goods/src/main/java/com/hai/entity/GoodsVO.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java" />
-        <option value="$PROJECT_DIR$/user/pom.xml" />
-        <option value="$PROJECT_DIR$/user/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/user/src/main/java/controller/UserHandler.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/hai/entity/User.java" />
-        <option value="$PROJECT_DIR$/user/src/main/resources/mapping/UserRepository.xml" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/hai/UserApplication.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/hai/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/hai/controller/UserHandler.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/ClientApplication.java" />
-        <option value="$PROJECT_DIR$/goods/src/main/java/com/hai/GoodsApplication.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/hai/entity/UserVO.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/user_add.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/user_manage.jsp" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/feign/UserFeign.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/controller/UserHandler.java" />
         <option value="$PROJECT_DIR$/configserver/src/main/resources/shared/user-dev.yml" />
-        <option value="$PROJECT_DIR$/goods/src/main/java/com/hai/controller/GoodsHandler.java" />
         <option value="$PROJECT_DIR$/goods/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/configserver/src/main/resources/shared/goods-dev.yml" />
         <option value="$PROJECT_DIR$/account/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/account/src/main/java/com/hai/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/account/src/main/java/com/hai/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml" />
         <option value="$PROJECT_DIR$/account/src/main/resources/mapping/AdminRepository.xml" />
         <option value="$PROJECT_DIR$/account/src/main/java/com/hai/AccountApplication.java" />
         <option value="$PROJECT_DIR$/account/src/main/java/com/hai/controller/AccountHandler.java" />
@@ -491,12 +359,45 @@
         <option value="$PROJECT_DIR$/client/src/main/java/com/hai/feign/AccountFeign.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/static/login.html" />
         <option value="$PROJECT_DIR$/client/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
-        <option value="$PROJECT_DIR$/account/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/src/main/resources/shared/account-dev.yml" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/index.jsp" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/hai/entity/User.java" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/BuyApplication.java" />
+        <option value="$PROJECT_DIR$/buy/pom.xml" />
+        <option value="$PROJECT_DIR$/configserver/src/main/resources/shared/buy-dev.yml" />
+        <option value="$PROJECT_DIR$/buy/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/BuyVO.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/entity/BuyVO.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/index.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/goods_manage.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/feign/GoodsFeign.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/goods_add.jsp" />
+        <option value="$PROJECT_DIR$/goods/src/main/java/com/hai/controller/GoodsHandler.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/filter/UserFilter.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/filter/AdminFilter.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/hai/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/repository/BuyRepository.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/main.jsp" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/buy_handler.html" />
+        <option value="$PROJECT_DIR$/buy/src/main/resources/mapping/UserRepository.xml" />
+        <option value="$PROJECT_DIR$/buy/src/main/resources/mapping/GoodsRepository.xml" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/repository/GoodsRepository.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/buy_handler.jsp" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/controller/BuyHandler.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/feign/BuyFeign.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/controller/BuyHandler.java" />
+        <option value="$PROJECT_DIR$/account/src/main/java/com/hai/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/account/pom.xml" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java" />
+        <option value="$PROJECT_DIR$/buy/src/main/java/com/hai/entity/Buy.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/hai/entity/Buy.java" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/static/buy.jsp" />
+        <option value="$PROJECT_DIR$/buy/src/main/resources/mapping/BuyRepository.xml" />
       </list>
     </option>
   </component>
@@ -513,22 +414,27 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Transaction Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Transaction Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="710" />
-    <option name="width" value="1538" />
-    <option name="height" value="1040" />
+    <option name="x" value="-2" />
+    <option name="y" value="1" />
+    <option name="width" value="1932" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -565,7 +471,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/buy/src/main/resources/mapping" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -576,16 +482,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\研究生\课程资料\软件体系结构\transaction\buy\src\main\resources\mapping" />
       <recent name="E:\研究生\课程资料\软件体系结构\transaction\client\src\main\resources\static" />
+      <recent name="E:\研究生\课程资料\软件体系结构\transaction\buy\src\main\java\com\hai\entity" />
       <recent name="E:\研究生\课程资料\软件体系结构\transaction\account\src\main\resources\mapping" />
       <recent name="E:\研究生\课程资料\软件体系结构\transaction\configserver\src\main\resources\shared" />
-      <recent name="E:\研究生\课程资料\软件体系结构\transaction\account\src\main\resources" />
-      <recent name="E:\研究生\课程资料\软件体系结构\transaction\user\src\main\resources\mapping" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hai.repository" />
       <recent name="com.hai.entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\研究生\课程资料\软件体系结构\transaction\client\src\main\resources\static\image" />
+      <recent name="E:\研究生\课程资料\软件体系结构\transaction\client\src\main\resources\static" />
       <recent name="E:\研究生\课程资料\软件体系结构\transaction\client\target\classes\static" />
       <recent name="E:\研究生\课程资料\软件体系结构\transaction\client\src\main\resources\static\js" />
     </key>
@@ -606,9 +515,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.18809849" />
+    <option name="contentProportion" value="0.22751896" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="account" />
       <extension name="coverage">
@@ -618,6 +527,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hai.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="buy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hai.BuyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -635,32 +557,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="configserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hai.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eurekaserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hai.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="goods" />
       <extension name="coverage">
@@ -674,13 +570,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hai.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ClientApplication" />
-        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Spring Boot.BuyApplication" />
         <item itemvalue="Spring Boot.AccountApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -697,17 +606,26 @@
       <workItem from="1571315403931" duration="99823000" />
       <workItem from="1571670763886" duration="984000" />
       <workItem from="1571728489031" duration="1154000" />
-      <workItem from="1571729684647" duration="2360000" />
+      <workItem from="1571729684647" duration="13647000" />
+      <workItem from="1571902654331" duration="38246000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1571732112167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571732112167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104321000" />
+    <option name="totallyTimeSpent" value="153854000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58567774" visible="true" weight="0.24697986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58567774" visible="true" weight="0.2828175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -716,8 +634,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" sideWeight="0.41432226" side_tool="true" weight="0.24697986" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32763532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43444446" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3093682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39777777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -726,16 +644,16 @@
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" weight="0.32763532" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.32763532" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32555556" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013423" side_tool="true" weight="0.44301996" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32461873" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.4986577" visible="true" weight="0.32763532" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49932885" weight="0.44301996" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.4986577" weight="0.3267974" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4986577" visible="true" weight="0.41503268" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.101387404" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Preview" order="6" weight="0.32977587" />
@@ -785,9 +703,50 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="大致功能均能正常运行" />
+    <option name="LAST_COMMIT_MESSAGE" value="大致功能均能正常运行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,382 +765,421 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/account/src/main/java/com/hai/controller/AccountHandler.java</url>
-          <line>23</line>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account/src/main/java/com/hai/controller/AccountHandler.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/GoodsVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/repository/AdminRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="350" column="43" lean-forward="true" selection-start-line="350" selection-start-column="43" selection-end-line="350" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/context/request/ServletRequestAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="568" selection-start-line="568" selection-end-line="568" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="421" selection-start-line="421" selection-end-line="421" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="509" selection-start-line="509" selection-end-line="509" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/core/StandardWrapperValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/core/StandardContextValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/core/StandardHostValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/valves/ErrorReportValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/core/StandardEngineValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="412" selection-start-line="412" selection-end-line="412" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.35/tomcat-embed-core-8.5.35.jar!/org/apache/coyote/http11/Http11Processor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="427" selection-start-line="427" selection-end-line="427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/reflect/InvocationTargetException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goods/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/feign/AccountFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/mapping/UserRepository.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/goods_update.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/BuyVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="52" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/hai/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/UserHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/shared/account-dev.yml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/GoodsHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="423">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/src/main/resources/mapping/AdminRepository.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/goods_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="84" />
+        <state relative-caret-position="251">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/user_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="90" column="19" selection-start-line="82" selection-start-column="4" selection-end-line="90" selection-end-column="19" />
+        <state relative-caret-position="84">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/feign/UserFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/feign/GoodsFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/hai/controller/UserHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods/src/main/java/com/hai/controller/GoodsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods/src/main/java/com/hai/GoodsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/UserHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/shared/user-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/filter/UserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/filter/AdminFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/hai/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/mapping/UserRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/resources/mapping/UserRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/resources/mapping/GoodsRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/repository/GoodsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="141">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/java/com/hai/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/AccountApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/goods_manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="21" selection-start-line="30" selection-start-column="20" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/UserVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/controller/AccountHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/java/com/hai/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.yml">
+    <entry file="file://$USER_HOME$/Desktop/orderingsystem-master/orderingsystem-master/clientfeign/src/main/java/com/southwind/controller/AccountHandler.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/repository/AdminRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/resources/mapping/AdminRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/feign/AccountFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/controller/AccountHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/java/com/hai/AccountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <marker date="1572068906433" expanded="true" signature="387:640" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/src/main/resources/mapping/UserRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/AccountHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/entity/BuyVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/entity/Buy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/entity/Buy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/buy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="71" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/controller/BuyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/hai/feign/BuyFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/controller/BuyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/java/com/hai/repository/BuyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy/src/main/resources/mapping/BuyRepository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/static/buy_handler.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="81" lean-forward="true" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1233,7 +1231,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>configserver</last-edited>
+          <last-edited>buy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

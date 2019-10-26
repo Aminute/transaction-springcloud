@@ -1,0 +1,6 @@
+com\hai\repository\AdminRepository.class
+com\hai\AccountApplication.class
+com\hai\repository\UserRepository.class
+com\hai\controller\AccountHandler.class
+com\hai\entity\User.class
+com\hai\entity\Admin.class

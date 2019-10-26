@@ -30,14 +30,13 @@ public class GoodsHandler {
     @GetMapping("/deleteById/{goods_id}")
     public String deleteById(@PathVariable("goods_id") String goods_id){
         goodsFeign.deleteById(goods_id);
-        return "redirect:/goods/redirect/index";
+        return "redirect:/goods/redirect/goods_manage";
     }
 
     @PostMapping("/save")
-    public ModelAndView save(){
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("goods_add");
-        return modelAndView;
+    public String  save(Goods goods){
+        goodsFeign.save(goods);
+        return "redirect:/goods/redirect/goods_add";
     }
 
     @GetMapping("/findById/{goods_id}")
@@ -51,7 +50,7 @@ public class GoodsHandler {
     @PostMapping("/update")
     public String Update(Goods goods){
         goodsFeign.update(goods);
-        return "redirect:/goods/redirect/index";
+        return "redirect:/goods/redirect/goods_manage";
     }
 
 }
